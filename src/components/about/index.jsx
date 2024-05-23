@@ -14,14 +14,20 @@ export default function AboutDetails() {
             Desenvolvedor Fullstack Jr.
           </h2>
           <p className="font-light text-xs sm:text-sm md:text-base">
-            Olá, meu nome é Matheus, e aos 19 anos sou um desenvolvedor
-            fullstack. Minha jornada na área da tecnologia começou há dois anos.
-            Originário de uma família batalhadora e de recursos limitados,
-            comecei meus estudos munido apenas de um celular, muita dedicação e
-            um sonho. Hoje, estou realizando esses sonhos, mantendo sempre em
-            mente que o céu é o limite. Com uma determinação incansável, almejo
-            conquistar o mundo. Junte-se a essa trajetória de um jovem
-            determinado e ávido por brilhar.
+            Desenvolvedor Fullstack Jr. com experiência em sistemas financeiros
+            e soluções de pagamento, além de operações e suporte a aplicações em
+            produção. Habilidade comprovada no desenvolvimento e manutenção de
+            sistemas complexos utilizando tecnologias modernas como React,
+            Next.js e Nest.js, TypeScript, Node.js, HTML, CSS, TailwindCSS,
+            ES6+, manipulação do DOM e versionamento de código com Git e GitHub.
+            Possuo Experiência e familiaridade com sistemas utilizando Docker,
+            PostgreSQL, Cassandra, MongoDB, SQL, AWS e Kafka, Java, com
+            arquitetura de sistemas em micro-serviços, e mono Repos aplicação de
+            Clean Code e desenvolvimento de APIs REST. Forte capacidade de
+            colaborar com equipes multifuncionais para entregar produtos de alta
+            qualidade dentro dos prazos estabelecidos. Comunicação eficaz,
+            trabalho em equipe, resolução de problemas, gestão de tempo,
+            adaptabilidade
           </p>
         </ItemLayout>
 

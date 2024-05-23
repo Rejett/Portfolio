@@ -13,6 +13,7 @@ import Link from "next/link";
 import React from "react";
 import ResponsiveComponent from "../ResponsiveComponent";
 import clsx from "clsx";
+import { FaTiktok } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const getIcon = (icon) => {
@@ -29,8 +30,8 @@ const getIcon = (icon) => {
       return <Github className="w-full h-auto" strokeWidth={1.5} />;
     case "linkedin":
       return <Linkedin e className="w-full h-auto" strokeWidth={1.5} />;
-    case "twitter":
-      return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
+    case "tiktok":
+      return <FaTiktok className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
     default:
