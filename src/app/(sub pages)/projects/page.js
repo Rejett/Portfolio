@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../assets/projects-background.jpg";
+import bg from "../../../../public/background/projects-background.jpg";
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";
@@ -10,6 +10,8 @@ export default function Projects() {
   return (
     <>
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="Imagem de Fundo"
         className="-z-50 fixed top-0 left-0 w-full h-screen object-cover object-center opacity-25"

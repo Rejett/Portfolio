@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../assets/contact-background.jpg";
+import bg from "../../../../public/background/contact-background.jpg";
 import Form from "@/components/contact";
 
 export default function Contact() {
   return (
     <>
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="Imagem de Fundo"
         className="-z-50 fixed top-0 left-0 w-full h-screen object-cover object-center opacity-25"

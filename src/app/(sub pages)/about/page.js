@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../assets/about-background.jpg";
+import bg from "../../../../public/background/about-background.jpg";
 import RenderModel from "@/components/RenderModel";
 import { Helmet } from "@/components/models/helmet";
 import AboutDetails from "@/components/about";
@@ -9,6 +9,8 @@ export default function About() {
   return (
     <>
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="Imagem de Fundo"
         className="-z-50 fixed top-0 left-0 w-full h-full object-cover object-center opacity-25"

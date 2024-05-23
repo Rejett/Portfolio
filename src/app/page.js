@@ -1,5 +1,5 @@
 import Image from "next/image";
-import bg from "../assets/home-background.jpg";
+import bg from "../../public/background/home-background.jpg";
 import RenderModel from "@/components/RenderModel";
 import { PersonModel } from "@/components/models/person";
 import Navigation from "@/components/navigation/navigation";
@@ -8,6 +8,8 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
+        priority
+        sizes="100vw"
         src={bg}
         alt="Imagem de Fundo"
         fill
