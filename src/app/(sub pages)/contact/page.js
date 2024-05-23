@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../../public/background/contact-background.jpg";
+import bg from "../../../assets/contact-background.jpg";
 import Form from "@/components/contact";
 
 export default function Contact() {

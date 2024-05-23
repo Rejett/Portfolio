@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../../public/background/projects-background.jpg";
+import bg from "../../../assets/projects-background.jpg";
 import ProjectList from "@/components/projects";
 import { projectsData } from "../../data";
 import RenderModel from "@/components/RenderModel";

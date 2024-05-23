@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bg from "../../../../public/background/about-background.jpg";
+import bg from "../../../assets/about-background.jpg";
 import RenderModel from "@/components/RenderModel";
 import { Helmet } from "@/components/models/helmet";
 import AboutDetails from "@/components/about";
